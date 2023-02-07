@@ -1,35 +1,45 @@
 import 'package:flutter/material.dart';
 
 class TodoListPage extends StatelessWidget {
-  const TodoListPage({Key? key}) : super(key: key);
+   const TodoListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: TextField(
-            decoration: InputDecoration(
-              labelText: 'E-mail',
-              hintText: 'exemplo@exemplo.com',
-              //border: OutlineInputBorder(),
-              errorText: 'Email invalido',
-              prefixText: 'R\$ ',
-              suffixText: 'cm',
-              labelStyle: TextStyle(
-                fontSize: 24,
+        body: Center(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                        labelText: 'Adicione uma tarefa',
+                        hintText: 'Ex: Estudar Flutter',
+                      ),
+                    ),
+                  ),
+                  SizedBox(width: 8),
+                  ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        primary: Color(0xff00d7f2),
+                        padding: EdgeInsets.all(14),
+                      ),
+                      child: Icon(
+                        Icons.add,
+                        size: 30,
+                      ),
+                  )
+                ],
               ),
             ),
-            //obscureText: true,
-            keyboardType: TextInputType.emailAddress,
-            style: TextStyle(
-              fontWeight: FontWeight.w700,
-              color: Colors.purple,
-            ),
-          ),
         ),
-      ),
     );
   }
+
+
+
+
 }
