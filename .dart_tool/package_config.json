@@ -56,10 +56,22 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_slidable",
+      "rootUri": "file:///C:/Users/Andre/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_slidable-0.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/Users/Andre/Documents/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///C:/Users/Andre/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "js",
@@ -152,7 +164,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-12T23:36:25.606021Z",
+  "generated": "2023-02-28T01:53:32.398276Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }
